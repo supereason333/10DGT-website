@@ -1,8 +1,8 @@
 /* global styling*/
-html{
+html {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0rem 2rem;
-  background-color: #ffffff;
+  background-color: #1f1c27;
 }
 
 /* Banner image*/
@@ -17,25 +17,25 @@ html{
 
 /*the navbar styling goes here*/
 /* nav bar */
-nav ul{
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: grey;
+  background: linear-gradient(to bottom, #3f384d, #201c27);
   top: 0;
   width: 100%;
   text-align: center;
 }
 
 /* how the list of pages sits */
-nav ul li{
+nav ul li {
   display: inline-block;
   font-size: 1rem;
 }
 
 /* the nav text */
-nav li a{
+nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -43,24 +43,24 @@ nav li a{
   text-decoration: none;
 }
 
-nav li:hover{
-  background-color: orangered;
+nav li:hover {
+  background: linear-gradient(to bottom, rgba(87, 78, 106, 0.8), rgba(0, 0, 0, 0));
 }
 
-nav #active{
-  background-color: darkgreen;
+nav #active {
+  background: rgba(87, 78, 106, 0.8);
 }
 
 /* Styling for the main section*/
 /* This is the line between the main section and footer */
-main{
+main {
   border-bottom: 3px solid;
-  color: black;
+  color: #a6a6a6;
 }
 
 /* H1 uses a google font. Check out https://www.w3schools.com/howto/howto_google_fonts.asp to change - also see line 9 in your html page*/
 h1 {
-  color: darkblue;
+  color: #d4bdff;
   font-family: 'Bungee';
   font-size: 60px;
   text-align: center;
@@ -68,37 +68,38 @@ h1 {
 }
 
 h2 {
-  color: black;
+  color: white;
   font-size: 30px;
   text-align: center;
 }
 
 p {
-  color: black;
+  color: white;
   font-size: 14px;
   text-align: center;
 }
 
 /* Styling for the image container and the items inside it */
-.container{
-  display: flex; 
-  flex-wrap: wrap; 
-  align-items: center; 
-  justify-content: center; 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 /*Items for all the screenshots and pictures of your stuff*/
-.item{
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+.item {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 20%;
   min-width: 8rem;
   margin: 0.5rem;
 }
- .item-info{
-   padding: 0.1rem;
-   text-align: center;
- }
 
-.item img{
+.item-info {
+  padding: 0.1rem;
+  text-align: center;
+}
+
+.item img {
   width: 100%;
 }
