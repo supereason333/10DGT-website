@@ -1,8 +1,8 @@
 /* global styling*/
 html {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0rem 2rem;
-  background-color: #1f1c27;
+  margin: 0rem 0rem;
+  background-color: #2C2B30;
 }
 
 /* Banner image*/
@@ -20,12 +20,14 @@ html {
 nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10px;
   overflow: hidden;
-  background: linear-gradient(to bottom, #3f384d, #201c27);
-  top: 0;
-  width: 100%;
+  background: #D6D6D6;
   text-align: center;
+}
+nav {
+  position: sticky;
+  top: 0;
 }
 
 /* how the list of pages sits */
@@ -37,34 +39,39 @@ nav ul li {
 /* the nav text */
 nav li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 nav li:hover {
-  background: linear-gradient(to bottom, rgba(87, 78, 106, 0.8), rgba(0, 0, 0, 0));
+  background: linear-gradient(to bottom, #f58f5c, rgba(0, 0, 0, 0));
 }
 
 nav #active {
-  background: rgba(87, 78, 106, 0.8);
+  background: #f58f5c;
 }
+
 
 /* Styling for the main section*/
 /* This is the line between the main section and footer */
 main {
   border-bottom: 3px solid;
   color: #a6a6a6;
+  max-width: 100rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* H1 uses a google font. Check out https://www.w3schools.com/howto/howto_google_fonts.asp to change - also see line 9 in your html page*/
 h1 {
-  color: #d4bdff;
+  color: #f2c4ce;
   font-family: 'Bungee';
   font-size: 60px;
   text-align: center;
   margin-bottom: 1rem;
+  text-shadow: 2px 2px 2px #000000;;
 }
 
 h2 {
@@ -87,6 +94,14 @@ p {
   justify-content: center;
 }
 
+.container-home {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3fr;
+}
+
 /*Items for all the screenshots and pictures of your stuff*/
 .item {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -103,3 +118,27 @@ p {
 .item img {
   width: 100%;
 }
+
+.item-home {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  min-width: 8rem;
+  margin: 0.5rem;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 0.5fr 1fr;
+  column-gap: 5px;
+  background-color: #434148;
+}
+
+.item-info-home {
+  padding: 0.1rem;
+  text-align: center;
+}
+
+.item-home img {
+  width: 100%;
+  margin: 1rem;
+  max-width: 40rem;
+}
+
