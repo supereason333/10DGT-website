@@ -1,6 +1,6 @@
 /* global styling*/
 html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: roboto, Helvetica, sans-serif;
   margin: 0rem 0rem;
   background-color: #2C2B30;
 }
@@ -23,7 +23,7 @@ html {
 nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 10px;
+  padding: 0.5rem;
   overflow: hidden;
   background: #D6D6D6;
   text-align: center;
@@ -37,6 +37,7 @@ nav {
 nav ul li {
   display: inline-block;
   font-size: 1rem;
+  font-family: roboto mono;
 }
 
 /* the nav text */
@@ -62,7 +63,7 @@ nav #active {
 main {
   border-bottom: 3px solid;
   color: #a6a6a6;
-  max-width: 100rem;
+  max-width: 80rem;
   margin-left: auto;
   margin-right: auto;
 }
