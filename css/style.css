@@ -98,7 +98,7 @@ p {
   justify-content: center;
 }
 
-.container-home {
+.container-wide {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -123,7 +123,7 @@ p {
   width: 100%;
 }
 
-.item-home {
+.item-wide {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 100%;
   min-width: 8rem;
@@ -135,12 +135,13 @@ p {
   background-color: #434148;
 }
 
-.item-info-home {
+.item-wide-text {
   padding: 0.1rem;
+  margin-left: 1rem;
   text-align: center;
 }
 
-.item-home img {
+.item-wide img {
   width: 100%;
   margin: 1rem;
   max-width: 40rem;
