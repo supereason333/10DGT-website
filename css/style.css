@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "DIN Alternative";
+  src: local("fonts/DINAlternative-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; 
+}
+
 /* global styling*/
 html {
   font-family: roboto, Helvetica, sans-serif;
@@ -68,7 +76,6 @@ main {
   margin-right: auto;
 }
 
-/* H1 uses a google font. Check out https://www.w3schools.com/howto/howto_google_fonts.asp to change - also see line 9 in your html page*/
 h1 {
   color: #f2c4ce;
   font-family: 'Bungee';
