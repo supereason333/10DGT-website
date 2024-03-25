@@ -118,7 +118,7 @@ p {
 .item {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 20%;
-  min-width: 12rem;
+  min-width: 15rem;
   margin: 0.5rem;
   display: grid;
   grid-template-rows: 3.5fr 1fr;
@@ -129,10 +129,15 @@ p {
   padding: 0rem;
   text-align: center;
   text-justify: center;
+  max-width: 100%;
 }
 
 .item img {
   max-width: 100%;
+}
+
+.item code {
+  padding: 1rem;
 }
 
 .item-wide {
@@ -157,4 +162,10 @@ p {
   width: 100%;
   margin: 1rem;
   max-width: 40rem;
+}
+
+.link {
+   color:aqua;
+   text-decoration: none; 
+   background-color: none;
 }
